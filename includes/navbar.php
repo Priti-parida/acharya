@@ -1,15 +1,19 @@
+<?php
 
+
+
+?>
 
 
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+        <div class="container">
+          <a class="navbar-brand" href="#">BLOG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-            <?php
+<?php
 
 $navquery = "SELECT * FROM menu";
 $runav = mysqli_query($conn,$navquery);
@@ -32,7 +36,7 @@ else{
                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                   
                 <?php
-                $submenu =   getsubmenu($conn,$menu['id']);
+                $submenu = getsubmenu($conn,$menu['id']);
                 foreach ($submenu as $sm) {
                   # code...
                   ?>
@@ -79,8 +83,8 @@ else{
       </nav> 
      
      
-      <nav class="navbar navbar-expand-lg navbar-light bg-light border-top" style="background-color: darkred;">
-          <div class="container m-auto" >
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-top">
+          <div class="container m-auto">
             <a href="#" class="m-auto" style="text-decoration: none;"></a>
           </div>
         </nav>
