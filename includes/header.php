@@ -76,7 +76,7 @@ Contact: + (91) 7000121183,  + (91) 9425203501
 <li><a href="about.html">About us</a></li>
 <li><a href="services.html">Services</a>
 </li>
-<li><a href="../adminblog/index.php">Blog</a>
+<li><a href="../includes/index.php">Blog</a>
 
 <li><a href="contact.html">Contact</a></li>
 <li><a href="gallery.html">Gallery</a></li>
