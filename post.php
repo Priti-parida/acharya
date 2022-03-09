@@ -33,7 +33,7 @@ include('includes/header.php');
                   
                   <?php
                   
-                 $post_image = getimagebypost($conn,$post['id']);
+                 //$post_image = getimagebypost($conn,$post['id']);
                   
                   ?>
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -41,14 +41,14 @@ include('includes/header.php');
       <?php
          //for active slide in crousel $c=1;
          
-         foreach($post_image as $image){
+         //foreach($post_image as $image){
            
              ?>
       <div class="carousel-item active "> 
-         <img  src="images/<?=$image['image']?>" class="d-block w-100" alt="">
+         <!--<img  src="images/<?=$image['image']?>" class="d-block w-100" alt="">-->
       </div>
       <?php
-         }
+         //}
          
          
          ?>
@@ -74,14 +74,14 @@ include('includes/header.php');
       <?php
          //for active slide in crousel $c=1;
          
-         foreach($post_image as $image){
+         //foreach($post_image as $image){
            
              ?>
       <div class="carousel-item active "> 
-         <img  src="images/<?=$image['image']?>" class="d-block w-100" alt="">
+         <!--<img  src="images/<?=$image['image']?>" class="d-block w-100" alt="">-->
       </div>
       <?php
-         }
+         //}
          
          
          ?>
@@ -118,7 +118,7 @@ include('includes/header.php');
                   
                   <?php
                   
-                 $post_image = getimagebypost($conn,$post['id']);
+                 //$post_image = getimagebypost($conn,$post['id']);
                   
                   ?>
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -126,14 +126,14 @@ include('includes/header.php');
       <?php
          //for active slide in crousel $c=1;
          
-         foreach($post_image as $image){
+         //foreach($post_image as $image){
            
              ?>
       <div class="carousel-item active "> 
-         <img  src="images/<?=$image['image']?>" class="d-block w-100" alt="">
+         <!--<img  src="images/<?=$image['image']?>" class="d-block w-100" alt="">-->
       </div>
       <?php
-         }
+        // }
          
          
          ?>
@@ -159,14 +159,14 @@ include('includes/header.php');
       <?php
          //for active slide in crousel $c=1;
          
-         foreach($post_image as $image){
+         //foreach($post_image as $image){
            
              ?>
       <div class="carousel-item active "> 
-         <img  src="images/<?=$image['image']?>" class="d-block w-100" alt="">
+         <!--<img  src="images/<?=$image['image']?>" class="d-block w-100" alt="">-->
       </div>
       <?php
-         }
+         //}
          
          
          ?>
@@ -227,20 +227,17 @@ include('includes/header.php');
 
           <div class="card mb-3" style="max-width: 700px;">
                     <div class="row g-0">
-                      <div class="col-md-5" style="background-image: url('https://images.moneycontrol.com/static-mcnews/2020/04/stock-in-the-news-770x433.jpg');background-size: cover">
-                        <!-- <img src="https://images.moneycontrol.com/static-mcnews/2020/04/stock-in-the-news-770x433.jpg" alt="..."> -->
-                      </div>
+                      
                       
                  
                   <div class="card mb-3" style="max-width: 700px;">
                     <div class="row g-0">
-                      <div class="col-md-5" style="background-image: url('https://images.moneycontrol.com/static-mcnews/2020/04/stock-in-the-news-770x433.jpg');background-size: cover">
-                        <!-- <img src="https://images.moneycontrol.com/static-mcnews/2020/04/stock-in-the-news-770x433.jpg" alt="..."> -->
+                     
                       </div>
                       <div class="col-md-7">
                         <div class="card-body">
                           <h5 class="card-title"><?=$rpost['title']?></h5>
-                          <p class="card-text text-truncate"><?=$rpost['content']?></p>
+                          <p class="card-text text-truncate"><?=$rpost['title']?></p>
                           <p class="card-text"><small class="text-muted">posted on<?= date('F jS, Y', strtotime($rpost['dt']))   ?> </small></p>
                         </div>
                       </div>

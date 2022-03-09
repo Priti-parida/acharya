@@ -12,12 +12,20 @@
     <script src="bootstrap/js/bootstrap-modal.js"></script>
     <script src="bootstrap/js/bootstrap-transition.js"></script
 
-  </body>
-</html>
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6222ded5494d6a11"></script>
 
 
 
 
-  </body>
+
+    <iframe class="product-iframe" frameborder="0" border="0"></iframe>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://preview.colorlib.com/assets/js/products.js.pagespeed.ce.eU9FFbENSY.js"></script>
+<script src="https://preview.colorlib.com/assets/js/application.min.js.pagespeed.ce.k53sHKSrpA.js"></script>
+
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6e8b41024fd1897d","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+</body>
+
+<!-- Mirrored from preview.colorlib.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Mar 2022 11:33:05 GMT -->
 </html>

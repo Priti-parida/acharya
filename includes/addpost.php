@@ -21,7 +21,7 @@ if(isset($_POST['addpost'])){
        }
    }
 
-header('location:../admin/index.php?managepost');
+header('location:../adminblog/index2.php?managepost');
 
 }
 

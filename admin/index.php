@@ -3,7 +3,7 @@ error_reporting(0);
 require ('../includes/db.php');
 require ('../includes/function.php');
 if(!isset($_SESSION['isUserLoggedIn']) ){
-  header('location:index.php');
+  header('location:index2.php');
 
 }
 $admin = getAdmininfo($conn,$_SESSION['email']);
@@ -63,7 +63,7 @@ $admin = getAdmininfo($conn,$_SESSION['email']);
   <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-      <a href="index.php" class="logo d-flex align-items-center">
+      <a href="index2.php" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
         <span class="d-none d-lg-block">blog admin panel</span>
       </a>
@@ -148,7 +148,7 @@ $admin = getAdmininfo($conn,$_SESSION['email']);
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="index.php">
+        <a class="nav-link " href="index2.php">
           <i class="bi bi-grid"></i>
           <span>Add Posts</span>
         </a>
@@ -156,7 +156,7 @@ $admin = getAdmininfo($conn,$_SESSION['email']);
 
      
       <li class="nav-item">
-        <a class="nav-link " href="index.php?managepost">
+        <a class="nav-link " href="index2.php?managepost">
           <i class="bi bi-grid"></i>
           <span>Manage posts</span>
         </a>
@@ -183,14 +183,14 @@ $admin = getAdmininfo($conn,$_SESSION['email']);
       </li> End Forms Nav -->
 
       <li class="nav-item">
-        <a class="nav-link " href="index.php?managecategory">
+        <a class="nav-link " href="index2.php?managecategory">
           <i class="bi bi-grid"></i>
           <span>Manage category</span>
         </a>
       </li><!-- End Dashboard Nav -->
      
       <li class="nav-item">
-        <a class="nav-link " href="index.php?managemenu">
+        <a class="nav-link " href="index2.php?managemenu">
           <i class="bi bi-grid"></i>
           <span>Manage menu</span>
         </a>

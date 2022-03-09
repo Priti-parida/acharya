@@ -259,7 +259,7 @@
       zoom: 5,
       // 2.0 http://lbsyun.baidu.com/custom/index.htm
       mapStyle: {},
-      // 3.0 http://lbsyun.baidu.com/index.php?title=open/custom
+      // 3.0 http://lbsyun.baidu.com/index1.php?title=open/custom
       mapStyleV2: {},
       // See https://lbsyun.baidu.com/cms/jsapi/reference/jsapi_reference.html#a0b1
       mapOptions: {},

@@ -6,7 +6,7 @@ if(isset($_GET['id'])){
     $id = $_GET['id'];
     $query ="DELETE FROM `category` WHERE id = $id";
     mysqli_query($conn,$query);
-    header('location:../admin/index.php?managecategory');
+    header('location:../adminblog/index2.php?managecategory');
 }
 
 ?>

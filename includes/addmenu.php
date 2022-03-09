@@ -8,7 +8,7 @@ $menu_link=mysqli_real_escape_string($conn,$_POST['new_link']);
 
 $query = "INSERT INTO menu(name,action) VALUES ('$menu_name','$menu_link')";
 mysqli_query($conn,$query);
-header('location:../admin/index.php?managemenu');
+header('location:../adminblog/index2.php?managemenu');
 }
 
 
@@ -25,7 +25,7 @@ $submenu_link=mysqli_real_escape_string($conn,$_POST['new_link1']);
 
 $query = "INSERT INTO submenu(name,action,parent_menu_id) VALUES ('$submenu_name','$submenu_link','$parent_id')";
 mysqli_query($conn,$query);
-header('location:../admin/index.php?managemenu');
+header('location:../adminblog/index2.php?managemenu');
 }
 
 
